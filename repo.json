@@ -6,7 +6,6 @@
     {
       "name": "Test M3U8 Akışı",
       "version": "1.0",
-      "apk": "https://example.com/test-eklentisi.apk",
       "sources": [
         {
           "name": "M3U8 Akışı",
