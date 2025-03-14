@@ -4,16 +4,15 @@
   "icon": "https://example.com/icon.png",
   "extensions": [
     {
-      "name": "Test M3U8 Akışı",
+      "name": "HDFilmCehennemi Akışı",
       "version": "1.0",
       "sources": [
         {
-          "name": "M3U8 Akışı",
-          "url": "https://cms-tabii-public-video.tabii.com/vod/1effd039-131e-61a4-b72f-e8e2ebca3aee/V0/packages/8453117581034677042/media-3/stream.m3u8"
-        },
-        {
-          "name": "MP4 Video",
-          "url": "https://s707sas.storage.yandex.net/rdisk/023d52adea39a6237197cdde4644b50a24079d1a403b448ae93f8e4004ff12d7/67d3899f/HFhweOk7XR0gGx__lDgdZMM5K7N7cVdbAcdxsh1bWBydns0QPvgZf84HDRPaG-0DInUMzbftF9kvuzBTVLyaww==?uid=0&filename=OSE%202025%2005%20TEK.mp4"
+          "name": "HDFilmCehennemi Stream",
+          "url": "https://transit-1169-ou.vmwesa.online/hls/xqx2ppaj35okjiqbtgusb7qtwp3zrx3vfwpaxmm4imy3n75indz5thlz56ha/index-v1.m3u8",
+          "headers": {
+            "Referer": "https://www.hdfilmcehennemi.nl/"
+          }
         }
       ]
     }
