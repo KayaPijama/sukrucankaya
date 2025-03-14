@@ -1,18 +1,15 @@
 {
-  "name": "Deneme Eklentisi",
-  "description": "CloudStream için test eklentisi",
+  "name": "Hayat IPTV",
+  "description": "Hayat IPTV M3U listesi",
   "icon": "https://example.com/icon.png",
   "extensions": [
     {
-      "name": "HDFilmCehennemi Akışı",
+      "name": "IPTV Kaynağı",
       "version": "1.0",
       "sources": [
         {
-          "name": "HDFilmCehennemi Stream",
-          "url": "https://transit-1169-ou.vmwesa.online/hls/xqx2ppaj35okjiqbtgusb7qtwp3zrx3vfwpaxmm4imy3n75indz5thlz56ha/index-v1.m3u8",
-          "headers": {
-            "Referer": "https://www.hdfilmcehennemi.nl/"
-          }
+          "name": "Hayat IPTV",
+          "url": "https://raw.githubusercontent.com/hayatiptv/iptv/master/index.m3u"
         }
       ]
     }
