@@ -2,14 +2,21 @@
   "name": "Deneme Eklentisi",
   "description": "CloudStream için test eklentisi",
   "icon": "https://example.com/icon.png",
-  "repos": [
+  "extensions": [
     {
       "name": "Test M3U8 Akışı",
-      "url": "https://cms-tabii-public-video.tabii.com/vod/1effd039-131e-61a4-b72f-e8e2ebca3aee/V0/packages/8453117581034677042/media-3/stream.m3u8"
-    },
-    {
-      "name": "Test MP4 Video",
-      "url": "https://s707sas.storage.yandex.net/rdisk/023d52adea39a6237197cdde4644b50a24079d1a403b448ae93f8e4004ff12d7/67d3899f/HFhweOk7XR0gGx__lDgdZMM5K7N7cVdbAcdxsh1bWBydns0QPvgZf84HDRPaG-0DInUMzbftF9kvuzBTVLyaww==?uid=0&filename=OSE%202025%2005%20TEK.mp4&disposition=attachment&hash=&limit=0&content_type=video%2Fmp4&owner_uid=0&fsize=3334463620&hid=ea07c367b6407433ad2184056263bd68&media_type=video&tknv=v2&etag=980e76d966b16095c5b937cb97bc042d&ts=630438eae65c0&s=0ae312ecd65a207b81e7722b2e907d83de8dc20804dac5a04c678a033fe33b4e&pb=U2FsdGVkX19v8blZ01RWqik9ytnBlVgknQBcF3_OGQGkwBHG_8TjaeJMaSpog66AiKZRSmax8KkuLQvuw06EFVZFL-HvOlXzb8tr0BeaPTk"
+      "version": "1.0",
+      "apk": "https://example.com/test-eklentisi.apk",
+      "sources": [
+        {
+          "name": "M3U8 Akışı",
+          "url": "https://cms-tabii-public-video.tabii.com/vod/1effd039-131e-61a4-b72f-e8e2ebca3aee/V0/packages/8453117581034677042/media-3/stream.m3u8"
+        },
+        {
+          "name": "MP4 Video",
+          "url": "https://s707sas.storage.yandex.net/rdisk/023d52adea39a6237197cdde4644b50a24079d1a403b448ae93f8e4004ff12d7/67d3899f/HFhweOk7XR0gGx__lDgdZMM5K7N7cVdbAcdxsh1bWBydns0QPvgZf84HDRPaG-0DInUMzbftF9kvuzBTVLyaww==?uid=0&filename=OSE%202025%2005%20TEK.mp4"
+        }
+      ]
     }
   ]
 }
